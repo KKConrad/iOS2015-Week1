@@ -91,14 +91,6 @@ if let validString = testString where validString.isEmpty {
     print("Got an empty string")
 }
 
-func test() {
-    guard let validString = testString else {
-        return
-    }
-    print(validString)
-}
-
-
 //: ## Type aliases
 //: Type aliases are a way to conveniently rename types
 

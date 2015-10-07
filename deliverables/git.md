@@ -64,6 +64,13 @@ Management) so I'll pick one. Source Control Management is the management of cha
 
 - What is the command to see the history of your previous commits (from the command line)?  What are a few interesting variations (sets of options)?
     git log
+    
+This limits the number of commits to output:
+    --max-count=<number>
+
+This skips the specified amount of commits before they start showing
+    --skip=<number>
+    
 
 - How can you look through your historical commits on the Github website?
   On the repository page, there is a clock icon that says commit(s). When clicked,
